@@ -18,3 +18,7 @@ sudo apt-get install --assume-yes python-pip
 sudo apt-get install --assume-yes python-pygame
 pip install -I pillow
 pip install numpy
+echo "set expandtab" >>~/.vimrc
+echo "set tabstop=2" >>~/.vimrc
+echo "set shiftwidth=2" >>~/.vimrc
+
