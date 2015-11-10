@@ -21,4 +21,8 @@ pip install numpy
 echo "set expandtab" >>~/.vimrc
 echo "set tabstop=2" >>~/.vimrc
 echo "set shiftwidth=2" >>~/.vimrc
-
+echo "set number" >>~/.vimrc
+git config --global push.default matching
+sudo sed -i'' '29,31 s/"if/if/' /etc/vim/vimrc
+sudo sed -i'' '29,31 s/"  au BufReadPost/  au BufReadPost/' /etc/vim/vimrc
+sudo sed -i'' '29,31 s/"endif/endif/' /etc/vim/vimrc
