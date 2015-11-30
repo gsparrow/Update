@@ -10,7 +10,7 @@ sudo apt-get install --assume-yes emacs
 sudo apt-get install --assume-yes sshfs
 sudo apt-get install --assume-yes sshuttle
 sudo apt-get install --assume-yes ispell
-sudo apt-get install --assume-yes htop
+sudo apt-get install --assume-yes nmon
 sudo apt-get install --assume-yes wavemon
 sudo apt-get install --assume-yes lm-sensors
 sudo apt-get install --assume-yes texlive-full
