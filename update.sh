@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo apt-add-repository ppa:system76-dev/stable
-sudo apt-get update
-sudo apt-get install --assume-yes system76-driver
 sudo apt-get update
 sudo apt-get dist-upgrade --assume-yes
 sudo apt-get install --assume-yes vim
