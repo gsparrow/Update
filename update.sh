@@ -8,6 +8,8 @@ sudo apt-get dist-upgrade --assume-yes
 sudo apt-get install --assume-yes vim
 sudo apt-get install --assume-yes emacs
 sudo apt-get install --assume-yes sshfs
+sudo apt-get install --assume-yes fuseiso
+#fuseiso allows you to mount iso images.
 sudo apt-get install --assume-yes sshuttle
 sudo apt-get install --assume-yes ispell
 sudo apt-get install --assume-yes xchat
