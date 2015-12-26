@@ -18,6 +18,8 @@ sudo apt-get install --assume-yes nmon
 sudo apt-get install --assume-yes wavemon
 sudo apt-get install --assume-yes lm-sensors
 sudo apt-get install --assume-yes texlive-full
+sudo apt-get install --assume-yes libopenmpi-dev
+sudo apt-get install --assume-yes openmpi-bin
 sudo apt-get install --assume-yes python-pip
 sudo apt-get install --assume-yes python-pygame
 pip install -I pillow
