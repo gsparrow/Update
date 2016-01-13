@@ -25,11 +25,6 @@ sudo apt-get install --assume-yes python-pip
 sudo apt-get install --assume-yes python-pygame
 pip install -I pillow
 pip install numpy
-echo "set expandtab" >>~/.vimrc
-echo "set tabstop=2" >>~/.vimrc
-echo "set shiftwidth=2" >>~/.vimrc
-echo "set number" >>~/.vimrc
+echo "set modeline" >>~/.vimrc
 git config --global push.default matching
-sudo sed -i'' '29,31 s/"if/if/' /etc/vim/vimrc
-sudo sed -i'' '29,31 s/"  au BufReadPost/  au BufReadPost/' /etc/vim/vimrc
-sudo sed -i'' '29,31 s/"endif/endif/' /etc/vim/vimrc
+sudo sed -i'' '29,31 s/"//' /etc/vim/vimrc
